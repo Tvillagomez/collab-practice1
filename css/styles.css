@@ -1,51 +1,26 @@
-body {
-    background: rgb(10, 10, 56, 0.5) url("");
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #b8b8b8;
+    height: 1200px; /** temporary for footer **/
 }
-header {
-    background-color: rgb(10, 10, 56);
-    font-size: xx-large;
-    color: rgb(255, 255, 255);
-    text-align: center;
-}
-nav {
-    background-color: rgb(10, 10, 56, 0.5);
-    color: rgb(255, 255, 255);
-    font-size: 32px;
-    text-align: center;
-}
-.container {
-    background-color: rgb(185, 220, 250);
-    min-height: 900px;
-    min-width: 1000px;
-    margin: auto;
-}
-.wrapper {
-    padding: 13px;
-    margin-top: 45px;
-}
-.row {
-    padding: 13px;
-    padding-bottom: 60px;
-}
-.col-right {
-    background-color: rgb(10, 10, 56, 0.5);
-    height: 1000px;
-    width: 647px;
-    font-size: 20px;
-}
-.col-left {
-    background-color: rgb(240, 248, 255);
-    height: 1000px;
-    width: 647px;
-    font-size: 20px;
-}
+
+nav {background-color: #7fffd4;}
+
+#hero {background-color: #898989; color: #ffffff;}
+
+#container {background-color: #898989;}
+
+#twocolumns {height:550px;}
+
+#left {background-color: #ff0000; color:white;}
+
+#right {background-color: #0000ff; color: white;}
+
 footer {
-    background-color: rgb(10, 10, 56);
-    color: rgb(255, 255, 255);
-    font-size: 32px;
-    text-align: center;
+    background-color: #f8a1f1;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
 }
-
-
-
